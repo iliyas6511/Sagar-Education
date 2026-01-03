@@ -1,0 +1,37 @@
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee 20s linear infinite;
+}
+
+@media (max-width: 768px) {
+  .marquee {
+    animation-duration: 15s;
+  }
+}
+
+
+@keyframes verticalScroll {
+  0% {
+    transform: translateY(100%);
+   
+  }
+
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+.verticalScroll {
+  animation: verticalScroll 20s linear infinite;
+}
+
