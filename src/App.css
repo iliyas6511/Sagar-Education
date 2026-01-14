@@ -35,3 +35,17 @@
   animation: verticalScroll 20s linear infinite;
 }
 
+
+@keyframes marquee-ltr {
+  100% {
+    transform: translateX(-50%);
+  }
+  0% {
+    transform: translateX(0%);
+  }
+}
+
+.animate-marquee-ltr {
+  animation: marquee-ltr 22s linear infinite;
+  will-change: transform;
+}

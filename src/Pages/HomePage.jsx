@@ -161,13 +161,9 @@ const AboutHome = () => {
 
 
 
-
-
-
 const HomePage = () => {
   return (
     <>
-      <Navbar />
       <NewsSticker />
       <HeroSlider />
       <AboutHome />
@@ -178,7 +174,6 @@ const HomePage = () => {
       <NewsUpdates />
       <FAQSection />
       <Advertisement />
-      <Footer />
     </>
   )
 }
