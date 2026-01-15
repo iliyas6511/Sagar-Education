@@ -84,7 +84,7 @@ const Footer = () => {
           <div className="flex gap-3 items-center">
             <FaPhone size={20} className="text-white" />
             <p className="text-base leading-relaxed text-softgray">
-              HOD - Shri. Osama Laden (+91 80871 77259)
+              HOD - Shri. Donald Putin (+91 80871 77259)
             </p>
           </div>
 
